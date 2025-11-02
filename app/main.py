@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 import os
-from app.routers import auth
+from app.routers import auth   # ← assim (não com ponto)
 
 app = FastAPI(title="EsetX API")
 
